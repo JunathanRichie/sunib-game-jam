@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Marsden Slim';
+    src: local('Marsden Slim Heavy'), local('Marsden-Slim-Heavy'),
+        url('Marsden-S-Heavy.woff2') format('woff2'),
+        url('Marsden-S-Heavy.woff') format('woff'),
+        url('Marsden-S-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Marsden Slim';
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.time{
+    margin-top: 0;
+    padding: 0;
+    margin: auto;
+    width: 300px;
+    height: 80px;
+    background-color: #b97687;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #faf8f6;
+}
+.time p{
+    margin: 0;
+    line-height: 1.5;
+    font-size:68px;
+}
+.number-container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.operator{
+    width: 200px;
+}
+.result-container{
+    width: 100%;
+    display: flex;
+}
+.result-box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+.operator img{
+    width: 100%;
+}
+.operator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.number-container .button{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    font-size: 120px;
+    text-align: center;
+    /* border:  solid black 5px; */
+    padding: 10px 0;
+    border-radius: 30px;
+    color: #faf8f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b57fb3;
+}
