@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Marsden Slim';
     src: local('Marsden Slim Heavy'), local('Marsden-Slim-Heavy'),
-        url('font/Marsden-S-Heavy.woff2') format('woff2'),
-        url('font/Marsden-S-Heavy.woff') format('woff'),
-        url('font/Marsden-S-Heavy.ttf') format('truetype');
+        url('Marsden-S-Heavy.woff2') format('woff2'),
+        url('Marsden-S-Heavy.woff') format('woff'),
+        url('Marsden-S-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
@@ -39,9 +39,6 @@ body{
     display: flex;
     justify-content:center;
 }
-.operator{
-    width: 200px;
-}
 .result-container{
     width: 100%;
     display: flex;
@@ -51,8 +48,13 @@ body{
     height: 200px;
     border: 5px solid black;
 }
-.operator img{
+.operator .button img{
     width: 100%;
+}
+.operator .button{
+    margin: 0;
+    width: 100px;
+    height: 100px;
 }
 .operator{
     width: 100%;
