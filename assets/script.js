@@ -1396,14 +1396,26 @@ class Angka {
     let sum=0;
     add.addEventListener("click",function(){
         add_sign=1;
+        sub_sign=0;
+        multi_sign=0;
+        div_sign=0;
     });
     sub.addEventListener("click",function(){
+        add_sign=0;
         sub_sign=1;
+        multi_sign=0;
+        div_sign=0;
     })
     multi.addEventListener("click",function(){
+        add_sign=0;
+        sub_sign=0;
         multi_sign=1;
+        div_sign=0;
     })
     div.addEventListener("click",function(){
+        add_sign=0;
+        sub_sign=0;
+        multi_sign=0;
         div_sign=1;
     })
     function count(number,add_sign,sub_sign,multi_sign,div_sign){
