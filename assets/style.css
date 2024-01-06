@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Marsden Slim';
     src: local('Marsden Slim Heavy'), local('Marsden-Slim-Heavy'),
-        url('Marsden-S-Heavy.woff2') format('woff2'),
-        url('Marsden-S-Heavy.woff') format('woff'),
-        url('Marsden-S-Heavy.ttf') format('truetype');
+        url('font/Marsden-S-Heavy.woff2') format('woff2'),
+        url('font/Marsden-S-Heavy.woff') format('woff'),
+        url('font/Marsden-S-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
